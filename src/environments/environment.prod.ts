@@ -1,3 +1,5 @@
 export const environment = {
-  infuraId: ''
+  production: true,
+  infuraId: '',
+  server: 'http://localhost:3000/'
 };

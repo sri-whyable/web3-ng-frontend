@@ -5,9 +5,20 @@
   <H2> {{ data }}</H2>
 
   <div class="flex flex-col p-3">
-    <button class="bg-orange-500 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" (click)="Connect()" >
+    <button class="bg-orange-500 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" (click)="Connect()">
       Connect your wallet
     </button>
+
+    <button style="margin-top: 16px" class="bg-orange-500 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded"
+            (click)="walletConnect()">
+      Connect Terra Wallet
+    </button>
+
+    <div style="margin-top: 20px">
+      <button class="bg-orange-500 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" (click)="postTn()">
+        Post a Transaction
+      </button>
+    </div>
   </div>
 
 </div>
